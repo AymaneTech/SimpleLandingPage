@@ -7,6 +7,7 @@ body{
     background-image: linear-gradient(to right, #1355c8, #558AE8);
     transform: scale(1.01);
     transition: 2s ease;
+    overflow: hidden;
 }
 header{
     display: flex;
