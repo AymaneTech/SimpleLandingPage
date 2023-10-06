@@ -134,3 +134,15 @@ form button {
 .submit:hover{
     background: #00ca4d;
 }
+.incli{
+    position: fixed;
+    bottom: -87px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    z-index: -1;
+    transform-origin: bottom right;
+    transform: skewY(-5deg);
+    margin-top: 80px;
+}
