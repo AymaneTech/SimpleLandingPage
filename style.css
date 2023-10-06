@@ -5,7 +5,8 @@
 }
 body{
     background-image: linear-gradient(to right, #1355c8, #558AE8);
-
+    transform: scale(1.01);
+    transition: 2s ease;
 }
 header{
     display: flex;
@@ -38,7 +39,7 @@ ul li a:hover{
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 100px;
 }
 .container .left{
@@ -129,4 +130,7 @@ form button {
 .submit{
     color: #fff;
     background: #1e81ff;     
+}
+.submit:hover{
+    background: #00ca4d;
 }
